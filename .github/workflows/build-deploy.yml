@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
  push:
   branches:
-   - master # Измените на вашу основную ветку
+   - gh-pages # Измените на вашу основную ветку
 
 jobs:
  build-deploy:
