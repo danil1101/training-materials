@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800,900");
+
+body {
+ font-family: Inter;
+ background: #fff;
+ color: #000;
+ &::-webkit-scrollbar {
+  background: none;
+  width: 5px;
+ }
+
+ &::-webkit-scrollbar-track {
+  background: none;
+ }
+
+ &::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 20px;
+ }
+}
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ position: relative;
+}
+
+ul,
+li {
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
+ color: #000;
+}
