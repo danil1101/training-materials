@@ -187,7 +187,7 @@
 }
 
 .card.informatics:before {
-    background: url(./img/informatics.33da6327.svg) 0 0/cover no-repeat
+    background: url(../img/informatics.33da6327.svg) 0 0/cover no-repeat
 }
 
 .card.history-russia {
@@ -195,7 +195,7 @@
 }
 
 .card.history-russia:before {
-    background: url(./img/history-russia.0ba1801b.svg) 0 0/cover no-repeat
+    background: url(../img/history-russia.0ba1801b.svg) 0 0/cover no-repeat
 }
 
 .card.drawing {
@@ -203,7 +203,7 @@
 }
 
 .card.drawing:before {
-    background: url(./img/drawing.700b6230.svg) 0 0/cover no-repeat
+    background: url(../img/drawing.700b6230.svg) 0 0/cover no-repeat
 }
 
 .card.chemistry {
@@ -211,7 +211,7 @@
 }
 
 .card.chemistry:before {
-    background: url(./img/chemistry.b9d912b7.svg) 0 0/cover no-repeat
+    background: url(../img/chemistry.b9d912b7.svg) 0 0/cover no-repeat
 }
 
 .card.physical {
@@ -219,7 +219,7 @@
 }
 
 .card.physical:before {
-    background: url(./img/physical.81bdc215.svg) 0 0/cover no-repeat
+    background: url(../img/physical.81bdc215.svg) 0 0/cover no-repeat
 }
 
 .card.physics {
@@ -227,7 +227,7 @@
 }
 
 .card.physics:before {
-    background: url(./img/physics.d4ada4a8.svg) 0 0/cover no-repeat
+    background: url(../img/physics.d4ada4a8.svg) 0 0/cover no-repeat
 }
 
 .card.geometry {
@@ -235,7 +235,7 @@
 }
 
 .card.geometry:before {
-    background: url(./img/geometry.64488c3b.svg) 0 0/cover no-repeat
+    background: url(../img/geometry.64488c3b.svg) 0 0/cover no-repeat
 }
 
 .card.social {
@@ -243,7 +243,7 @@
 }
 
 .card.social:before {
-    background: url(./img/social.4162450a.svg) 0 0/cover no-repeat
+    background: url(../img/social.4162450a.svg) 0 0/cover no-repeat
 }
 
 .card.english {
@@ -251,7 +251,7 @@
 }
 
 .card.english:before {
-    background: url(./img/english.767c7946.svg) 0 0/cover no-repeat
+    background: url(../img/english.767c7946.svg) 0 0/cover no-repeat
 }
 
 .card.art {
@@ -259,7 +259,7 @@
 }
 
 .card.art:before {
-    background: url(./img/art.8136662d.svg) 0 0/cover no-repeat
+    background: url(../img/art.8136662d.svg) 0 0/cover no-repeat
 }
 
 .card.music {
@@ -267,7 +267,7 @@
 }
 
 .card.music:before {
-    background: url(./img/music.03c71d00.svg) 0 0/cover no-repeat
+    background: url(../img/music.03c71d00.svg) 0 0/cover no-repeat
 }
 
 .card.obzh {
@@ -275,7 +275,7 @@
 }
 
 .card.obzh:before {
-    background: url(./img/obzh.485121c1.svg) 0 0/cover no-repeat
+    background: url(../img/obzh.485121c1.svg) 0 0/cover no-repeat
 }
 
 .card.technology {
@@ -283,7 +283,7 @@
 }
 
 .card.technology:before {
-    background: url(./img/technology.2d0e2108.svg) 0 0/cover no-repeat
+    background: url(../img/technology.2d0e2108.svg) 0 0/cover no-repeat
 }
 
 .card.russian {
@@ -291,7 +291,7 @@
 }
 
 .card.russian:before {
-    background: url(./img/russian.f0ce7528.svg) 0 0/cover no-repeat
+    background: url(../img/russian.f0ce7528.svg) 0 0/cover no-repeat
 }
 
 .card.mathematics {
@@ -299,7 +299,7 @@
 }
 
 .card.mathematics:before {
-    background: url(./img/mathematics.60400cc4.svg) 0 0/cover no-repeat
+    background: url(../img/mathematics.60400cc4.svg) 0 0/cover no-repeat
 }
 
 .card.literature {
@@ -307,7 +307,7 @@
 }
 
 .card.literature:before {
-    background: url(./img/literature.bda7d7a9.svg) 0 0/cover no-repeat
+    background: url(../img/literature.bda7d7a9.svg) 0 0/cover no-repeat
 }
 
 .card.geography {
@@ -315,7 +315,7 @@
 }
 
 .card.geography:before {
-    background: url(./img/geography.dafbe5c6.svg) 0 0/cover no-repeat
+    background: url(../img/geography.dafbe5c6.svg) 0 0/cover no-repeat
 }
 
 .card.history {
@@ -323,7 +323,7 @@
 }
 
 .card.history:before {
-    background: url(./img/history.5dd276c2.svg) 0 0/cover no-repeat
+    background: url(../img/history.5dd276c2.svg) 0 0/cover no-repeat
 }
 
 .card.biology {
@@ -331,7 +331,7 @@
 }
 
 .card.biology:before {
-    background: url(./img/biology.f44d79fd.svg) 0 0/cover no-repeat
+    background: url(../img/biology.f44d79fd.svg) 0 0/cover no-repeat
 }
 
 .card__container {
