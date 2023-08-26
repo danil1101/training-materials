@@ -1,6 +1,6 @@
 <script setup>
-import Header from './components/Header.vue';
-import Modal from './components/Modal.vue';
+import AppHeader from './components/AppHeader.vue';
+import AppModal from './components/AppModal.vue';
 import { ref } from 'vue'
 
 const isVisibleModal = ref(false)
@@ -103,7 +103,7 @@ const ninthGrade = [
 
 <template>
   <div class="wrapper">
-    <Header />
+    <AppHeader />
     <div class="wrapper__body">
       <tabs>
         <tab name="5 класс">
@@ -189,7 +189,7 @@ const ninthGrade = [
     </div>
   </div>
   <transition name="modal">
-    <Modal :isVisible="isVisibleModal" @close="toggleModal" :subject="subject" />
+    <AppModal :isVisible="isVisibleModal" @close="toggleModal" :subject="subject" />
   </transition>
 </template>
 

@@ -19,8 +19,10 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
+import { defineProps } from 'vue'
 
+// eslint-disable-next-line no-unused-vars
 const props = defineProps({
     isVisible: Boolean,
     subject: Object
