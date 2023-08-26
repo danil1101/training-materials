@@ -1,13 +1,12 @@
 <template>
-    <div class="modal-mask" v-if="isVisible">
+    <div class="modal-mask" v-if="isVisible" @click="handleClickOutside">
         <div class="modal-wrapper">
             <div class="modal-container">
                 <button class="modal-default-button" @click="$emit('close')">
                     ×
                 </button>
                 <div class="modal-header">
-                    {{ subject?.title }} - {{ subject?.author }} <span v-if="subject?.subtitle">- {{ subject?.subtitle
-                    }}</span>
+                    {{ subject?.title }} - {{ subject?.author }} <span v-if="subject?.subtitle">- {{ subject?.subtitle}}</span>
                 </div>
 
                 <div class="modal-body">
@@ -20,12 +19,28 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
+import { defineProps, watch, defineEmits } from 'vue'
 
+const emit = defineEmits(['close'])
 // eslint-disable-next-line no-unused-vars
 const props = defineProps({
     isVisible: Boolean,
     subject: Object
+})
+
+const handleClickOutside = (event) => {
+    if (event?.target.classList == 'modal-wrapper') {
+        emit('close');
+    }
+}
+
+watch(()=> props.isVisible, ()=> {
+    if (props.isVisible) {
+        document.body.classList.add('open-modal')
+    }
+    if (!props.isVisible) {
+        document.body.classList.remove('open-modal')
+    }
 })
 </script>
 
@@ -64,6 +79,11 @@ const props = defineProps({
         min-height: 100%;
 
     }
+    @media (max-height: 850px) {
+        min-width: 100%;
+        min-height: 100%;
+
+    }
 }
 
 .modal-header {
@@ -92,6 +112,7 @@ const props = defineProps({
     }
 
     iframe {
+        user-select: none;
         margin: 0 auto;
         width: 540px;
         height: 700px;

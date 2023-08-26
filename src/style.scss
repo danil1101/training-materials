@@ -4,6 +4,7 @@ body {
  font-family: Inter;
  background: #fff;
  color: #000;
+ overflow-x: hidden;
  &::-webkit-scrollbar {
   background: none;
   width: 5px;
@@ -17,6 +18,13 @@ body {
   background-color: #000;
   border-radius: 20px;
  }
+ &.open-modal{
+    overflow: hidden;
+ }
+}
+
+html {
+  margin-right: calc(-1 * (100vw - 100%));
 }
 
 *,
