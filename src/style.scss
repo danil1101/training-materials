@@ -18,13 +18,13 @@ body {
   background-color: #000;
   border-radius: 20px;
  }
- &.open-modal{
-    overflow: hidden;
- }
 }
 
 html {
   margin-right: calc(-1 * (100vw - 100%));
+  &.open-modal {
+      overflow: hidden;
+  }
 }
 
 *,

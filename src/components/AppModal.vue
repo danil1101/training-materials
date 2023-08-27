@@ -19,7 +19,7 @@
 </template>
 
 <script setup>
-import { defineProps, watch, defineEmits } from 'vue'
+import { defineProps, defineEmits } from 'vue'
 
 const emit = defineEmits(['close'])
 // eslint-disable-next-line no-unused-vars
@@ -34,14 +34,6 @@ const handleClickOutside = (event) => {
     }
 }
 
-watch(()=> props.isVisible, ()=> {
-    if (props.isVisible) {
-        document.body.classList.add('open-modal')
-    }
-    if (!props.isVisible) {
-        document.body.classList.remove('open-modal')
-    }
-})
 </script>
 
 <style scoped lang="scss">
@@ -64,7 +56,6 @@ watch(()=> props.isVisible, ()=> {
 .modal-container {
     width: 100%;
     max-width: 1000px;
-    width: 100%;
     height: 100%;
     max-height: 800px;
     margin: 0px auto;
@@ -73,13 +64,20 @@ watch(()=> props.isVisible, ()=> {
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
     position: relative;
+    display: flex;
+    flex-direction: column;
 
     @media (max-width: 1000px) {
         min-width: 100%;
         min-height: 100%;
 
     }
-    @media (max-height: 850px) {
+    @media (max-width: 750px) {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    @media (max-height: 750px) {
+        height: 100dvh;
         min-width: 100%;
         min-height: 100%;
 
@@ -103,7 +101,7 @@ watch(()=> props.isVisible, ()=> {
     width: 100%;
 
     @media (max-width: 1000px) {
-        margin: 0;
+        margin: 20px auto;
         align-items: center;
     }
 

@@ -8,6 +8,7 @@ const subject = ref()
 
 const toggleModal = (item) => {
   subject.value = item
+  document.documentElement.classList.toggle('open-modal')
   isVisibleModal.value = !isVisibleModal.value
 }
 
