@@ -137,6 +137,7 @@ watch(()=> props.isVisible, ()=> {
     cursor: pointer;
     padding: 10px;
     transition: all 0.2s ease 0s;
+    color: #000;
 
     &:hover {
         opacity: 0.7;
