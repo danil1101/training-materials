@@ -14,18 +14,19 @@ const toggleModal = (item) => {
 
 const fiveGrade = [
   { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1wurHbQx5e2i8HFejBtTwZ8Q3cSNqAAvR/preview', subject: 'russian' },
-  { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1wL_MQO6AN0N5XfKEVMRYGCvk-QvrGKws/preview', subject: 'russian' },
+  { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1Jj2R7RWWGdxoxgwzT9YxNpY34ywHJfrA/preview', subject: 'russian' },
   { title: 'Математика', author: 'Виленкин', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1ruuToTcUEGw4sPdh3nO3mFYQ6wJE3XoO/preview', subject: 'mathematics' },
   { title: 'Математика', author: 'Виленкин', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/13KJ0sWGiJtJ47hpMEZqedB-ZTIIHLP1V/preview', subject: 'mathematics' },
-  { title: 'Литература', author: 'Коровкина', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1iPrNBCZORxzqf23UsgEpDQnZk97Ajfel/preview', subject: 'literature' },
-  { title: 'Литература', author: 'Коровкина', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1Av-km95OxRPh78CKxYwzfXZgWG8_Wujw/preview', subject: 'literature' },
+  { title: 'Литература', author: 'Коровина', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1iPrNBCZORxzqf23UsgEpDQnZk97Ajfel/preview', subject: 'literature' },
+  { title: 'Литература', author: 'Коровина', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1Av-km95OxRPh78CKxYwzfXZgWG8_Wujw/preview', subject: 'literature' },
   { title: 'География', author: 'Климанова', href: 'https://drive.google.com/file/d/1n1y6aOR4lySJY9YApCUwW3QQHtytr7WM/preview', subject: 'geography' },
   { title: 'Технология', author: 'Глозман', href: 'https://drive.google.com/file/d/1mZHt6AEqSLf93bv4bZ9d6KNrS7W9d5WU/preview', subject: 'technology' },
   { title: 'ОБЖ', author: 'Хренников', href: 'https://drive.google.com/file/d/1bWaV2B6U-O-BIH5s9KXoGd3xrPyJb1-H/preview', subject: 'obzh' },
   { title: 'Музыка', author: 'Критская', href: 'https://drive.google.com/file/d/1z52mEnjdtjvAaU-XxmAmXuA3r7gpqhG-/preview', subject: 'music' },
   { title: 'ИЗО', author: 'Горяева', href: 'https://drive.google.com/file/d/1osj3N7Rvn_J55YIYkWclslI6Wipo_06Q/preview', subject: 'art' },
   { title: 'Всеобщая история', author: 'Уколова', href: 'https://drive.google.com/file/d/1L98ZUASaGJM-kdlEAVClAfolSKyr4u3I/preview', subject: 'history' },
-  { title: 'Биология', author: 'Пасечник', href: 'https://drive.google.com/file/d/1C_5AHOeMjjwqnweJqBh7Zce4HVoxKiQo/preview', subject: 'biology' },
+  { title: 'Биология', author: 'Пасечник 2021', href: 'https://drive.google.com/file/d/1C_5AHOeMjjwqnweJqBh7Zce4HVoxKiQo/preview', subject: 'biology' },
+  { title: 'Биология', author: 'Пасечник 2023', href: 'https://drive.google.com/file/d/1cdTQjANGSYE001-F0kS_wIZAhmzPDdnv/preview', subject: 'biology' },
   { title: 'Английский язык', author: 'Ваулина', href: 'https://drive.google.com/file/d/1-82H3S8tPn-NX7OaySqTh7hRAMW7mX7n/preview', subject: 'english' },
 ]
 const sixthGrade = [
@@ -50,21 +51,23 @@ const seventhGrade = [
   { title: 'Геометрия', author: 'Атанасян', href: 'https://drive.google.com/file/d/1ZOswFTy192hSJfv9yweh9-PEY9nsMRW0/preview', subject: 'geometry' },
   { title: 'Физика', author: 'Перышкин', href: 'https://drive.google.com/file/d/1QwXxEaxF7ANLBu79ResN_zOuYmrJ8e4c/preview', subject: 'physics' },
   { title: 'Сборник задач по физике', author: 'Перышкин', href: 'https://drive.google.com/file/d/1Bd4RdQbheWYFxgEQUgMoqSRrBOYXlDkW/preview', subject: 'physics' },
-  { title: 'Технология', author: 'Глозман', href: 'https://drive.google.com/file/d/1Bd4RdQbheWYFxgEQUgMoqSRrBOYXlDkW/preview', subject: 'technology' },
+  { title: 'Алгебра', author: 'Мордкович', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1Rmr6jRMrmJltaryFmaLfKAaK7caHM3pQ/preview', subject: 'mathematics' },
+  { title: 'Алгебра', author: 'Мордкович', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/10tTzuXYk3UCy_DFeSwZbYNBgSg1szOnb/preview', subject: 'mathematics' },
+  { title: 'Технология', author: 'Глозман', href: 'https://drive.google.com/file/d/1hNvzkDKi2azwMzgx_5-E32b41EMKTt7K/preview', subject: 'technology' },
    { title: 'Информатика', author: 'Босова', href: 'https://drive.google.com/file/d/1FoxOJfFojdqb-tQtomFpb9Wo8m2XkDna/preview', subject: 'informatics' },
-  { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1XAL4oDty0Iblk8Sj-Lt7FR3kSNkM2dxw/preview', subject: 'russian' },
-  { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1lbQaiNOjbspAsggfEqXDiHSF7AZTcRkQ/preview', subject: 'russian' },
-  { title: 'Обществознание', author: 'Насонова', href: 'https://drive.google.com/file/d/1T5b4o-vgbwVdzhW1OvgDg3Cei8BrbtBb/preview', subject: 'social' },
+  { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1AA7x0Cspg6-woQ_7Gspsy46zgHN2xnyN/preview', subject: 'russian' },
+  { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1JJ1AVUnVOEmObS98l1ZOMqQ8lSbcE3o7/preview', subject: 'russian' },
+  { title: 'Литература', author: 'Коровина', subtitle: 'Часть 1',  href: 'https://drive.google.com/file/d/1pqforsUugZETPiP7YM5HxWi2jUs1TDFY/preview', subject: 'literature' },
+  { title: 'Литература', author: 'Коровина', subtitle: 'Часть 2',  href: 'https://drive.google.com/file/d/1ulnFfyLpoiY-lnhVYlGIru2qbmCsqMZN/preview', subject: 'literature' },
+  { title: 'Обществознание', author: 'Насонова', href: 'https://drive.google.com/file/d/1BPrvk2b0xcmnG9gc2_CgwoJp391nsezL/preview', subject: 'social' },
   { title: 'Всеобщая история', author: 'Ведюшкин', href: 'https://drive.google.com/file/d/1ZFfRKik_ihcHXtIjUXCc711hxhMRf0o2/preview', subject: 'history' },
-  { title: 'ОБЖ', author: 'Хренников', href: 'https://drive.google.com/file/d/1bYyjCkHhPc5fOtLBg8n_FWMACc-KG-9j/preview', subject: 'obzh' },
-  { title: 'Музыка', author: 'Критская', href: 'https://drive.google.com/file/d/10NU0YyOdnK6ZmCMmINwsBkeufOnK0bNZ/preview', subject: 'music' },
-  { title: 'Математика', author: 'Мордкович', href: 'https://drive.google.com/file/d/1xR-Qz0J7gcqoyJQjlk2yd_Nik0qXC8jn/preview', subject: 'mathematics' },
-  { title: 'История России', author: 'Андреев', href: 'https://drive.google.com/file/d/1-iT03YK_Fo59-w3mQmKmNVcg7790itW0/preview', subject: 'history-russia' },
-  { title: 'Атлас по истории', href: 'https://drive.google.com/file/d/14mDiQ42JAE89QvWPn_DNPEdq1dIy5mjl/preview', subject: 'history-russia' },
-  { title: 'ИЗО', author: 'Неменская', href: 'https://drive.google.com/file/d/1zLq4rq0PcIH8v49MSO8i7lf4RP1n70DZ/preview', subject: 'art' },
-  { title: 'География', author: 'Климанова', href: 'https://drive.google.com/file/d/167UCxrsqj0wPM7mAg7HJIQILu14SBYlV/preview', subject: 'geography' },
+  { title: 'Музыка', author: 'Критская', href: 'https://drive.google.com/file/d/1GJTD4fhW4-ur-EH0u0ZaY4ZXdr5WRV4l/preview', subject: 'music' },
+  { title: 'История России', author: 'Андреев', href: 'https://drive.google.com/file/d/1avtksTh9QZ1nVq2mXpZ75qoPLLf59v5E/preview', subject: 'history-russia' },
+  { title: 'Атлас по истории', author: 'Данилов', href: 'https://drive.google.com/file/d/14mDiQ42JAE89QvWPn_DNPEdq1dIy5mjl/preview', subject: 'history-russia' },
+  { title: 'ИЗО', author: 'Питерских', href: 'https://drive.google.com/file/d/1Qx53XBu17UI1wfpWx3hk_HbFyjfad-54/preview', subject: 'art' },
+  { title: 'География', author: 'Коринская', href: 'https://drive.google.com/file/d/1Jp2C7DHmG-hlFD514XfzQJ7eVlkrR7lA/preview', subject: 'geography' },
   { title: 'Биология', author: 'Латюшин', href: 'https://drive.google.com/file/d/1OsJrn_OzEkxRBdHRvqIrV6P1JRyq8st4/preview', subject: 'biology' },
-  { title: 'Английский язык', author: 'Ваулина', href: 'https://drive.google.com/file/d/121nME8wd_GPvrIlA3AiPen0Z8x2VjQhE/preview', subject: 'english' },
+  { title: 'Английский язык', author: 'Ваулина', href: 'https://drive.google.com/file/d/18m2lfegfsObCeFZhpfrsVnqgw4oRsuiS/preview', subject: 'english' },
 ]
 const eighthGrade = [
   { title: 'Физическая культура', author: 'Матвеев', href: 'https://drive.google.com/file/d/1NKGBY8SDCCaUbpBHUo_sJWLE1f3-wmdw/preview', subject: 'physical' },
@@ -92,6 +95,7 @@ const eighthGrade = [
 const ninthGrade = [
   { title: 'Химия', author: 'Габриелян', href: 'https://drive.google.com/file/d/17ha9noILPWI2SFeZfHyesKtvn-rV13aI/preview', subject: 'chemistry' },
   { title: 'Физика', author: 'Перышкин', href: 'https://drive.google.com/file/d/1kpaucbZPKMIxdH8Db2mJ8dMHS8DFAm_Y/preview', subject: 'physics' },
+  { title: 'Геометрия', author: 'Атанасян', href: 'https://drive.google.com/file/d/1XV3JofUFoZ8UgW7FpfEdxgRIi5jVPWMX/preview', subject: 'geometry' },
   { title: 'Сборник задач по физике', author: 'Перышкин', href: 'https://drive.google.com/file/d/1Bl_Okh0a0urfn7rgfKIbv8d8B2gf-qza/preview', subject: 'physics' },
   { title: 'Русский язык', author: 'Бархударов', href: 'https://drive.google.com/file/d/1n7-_NQhgEfU9UUI4gYSLh2SoJlVAOAio/preview', subject: 'russian' },
   { title: 'Обществознание', author: 'Насонова', href: 'https://drive.google.com/file/d/1l2BtjQR3pyh3X5AIeHJEfDOn_syDFUV1/preview', subject: 'social' },
@@ -103,7 +107,7 @@ const ninthGrade = [
   { title: 'Английский язык', author: 'Ваулина', href: 'https://drive.google.com/file/d/16DG0o7X04X_Ne5RNaMivcbhD287mbgd8/preview', subject: 'english' },
   { title: 'Алгебра', author: 'Мордкович', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1zXPhcC3xTz5cUFcx3h8LNGPAuV-R-ibJ/preview', subject: 'mathematics' },
   { title: 'Алгебра', author: 'Мордкович', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1E95GZ6vCsQHck2A9meLfEW3fInBem3Fl/preview', subject: 'mathematics' },
-  { title: 'Геометрия', author: 'Атанасян', href: 'https://drive.google.com/file/d/1EgA6RchzIHdNvpsqMVqF8sGr6idcrBUP/view', subject: 'geometry' },
+  { title: 'Геометрия', author: 'Атанасян', href: 'https://drive.google.com/file/d/1EgA6RchzIHdNvpsqMVqF8sGr6idcrBUP/preview', subject: 'geometry' },
   { title: 'Физическая культура', author: 'Матвеев', href: 'https://drive.google.com/file/d/16lBxcoCeWRJb6ShoYEDU1bXd7Uc45u2D/preview', subject: 'physical' },
 ]
 
@@ -126,7 +130,7 @@ const tenthGrade = [
   { title: 'Информатика', author: 'Босова', href: 'https://drive.google.com/file/d/1DWw5o7OIuEL104n25Fr-XPX8td_57One/preview', subject: 'informatics' },
   { title: 'Всеобщая история', author: 'Шубин', href: 'https://drive.google.com/file/d/1z_MiCljIfd0VPlqWUWtfJPA02bF4jhP8/preview', subject: 'history' },
   { title: 'Английский язык', author: 'Афанасьева', href: 'https://drive.google.com/file/d/15RweZiqp7-2HiK250V-pogHRIJrPDlRR/preview', subject: 'english' },
-  { title: 'Алгебра', author: 'Мордкович', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/16mZZB-N8cK5mZXMuPQtOe_FYWwwZUt_L/view', subject: 'mathematics' },
+  { title: 'Алгебра', author: 'Мордкович', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/16mZZB-N8cK5mZXMuPQtOe_FYWwwZUt_L/preview', subject: 'mathematics' },
   { title: 'Алгебра', author: 'Мордкович', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1YHGpn5i9vz7j5ksI1i-F6wPNS7PIIHzY/preview', subject: 'mathematics' },
 ]
 
@@ -211,8 +215,6 @@ const eleventhGrade = [
             </div>
           </div>
         </tab>
-      </tabs>
-      <tabs>
         <tab name="10 класс">
           <div class="card" v-for="item in tenthGrade" :class="item.subject" :key="item.title"  @click="() => toggleModal(item)">
             <div class="card__container">
