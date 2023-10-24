@@ -100,7 +100,7 @@ const ninthGrade = [
   { title: 'Русский язык', author: 'Бархударов', href: 'https://drive.google.com/file/d/1n7-_NQhgEfU9UUI4gYSLh2SoJlVAOAio/preview', subject: 'russian' },
   { title: 'Обществознание', author: 'Насонова', href: 'https://drive.google.com/file/d/1l2BtjQR3pyh3X5AIeHJEfDOn_syDFUV1/preview', subject: 'social' },
   { title: 'ОБЖ', author: 'Хренников', href: 'https://drive.google.com/file/d/1ZkukAyJa_upBvdgQomSNUvFTBAanI5GK/preview', subject: 'obzh' },
-  {title: 'Всеобщая история', author: 'Медяков', href: 'https://drive.google.com/file/d/11jTsfrx45OSX-72W7pajY10904DbvP8p/preview', subject: 'history' },
+  {title: 'Всеобщая история', author: 'Медяков', href: 'https://drive.google.com/file/d/1wq-hIUEj7cRsTI81UOJLPZPDOEt7FQNP/preview', subject: 'history' },
   { title: 'История России', author: 'Ляшенко', href: 'https://drive.google.com/file/d/1ptP1mkkYqad5MPZ9QqonBjs2A3fskbwj/preview', subject: 'history-russia' },
   { title: 'Информатика', author: 'Босова', href: 'https://drive.google.com/file/d/1OXAdjCzfcNth4j1_1ByAJRuH8jwH0X9b/preview', subject: 'informatics' },
   { title: 'География', author: 'Дронов', href: 'https://drive.google.com/file/d/12IvoCwV0rD8OZf6B2OT0-S3pk64ggT3e/preview', subject: 'geography' },
