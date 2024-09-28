@@ -15,7 +15,6 @@ const toggleModal = (item) => {
 const fiveGrade = [
   { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1wurHbQx5e2i8HFejBtTwZ8Q3cSNqAAvR/preview', subject: 'russian' },
   { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1Jj2R7RWWGdxoxgwzT9YxNpY34ywHJfrA/preview', subject: 'russian' },
-  { title: 'Русский язык', author: 'Ладыженская', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/1Jj2R7RWWGdxoxgwzT9YxNpY34ywHJfrA/preview', subject: 'russian' },
   { title: 'Математика', author: 'Виленкин', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1ruuToTcUEGw4sPdh3nO3mFYQ6wJE3XoO/preview', subject: 'mathematics' },
   { title: 'Математика', author: 'Виленкин', subtitle: 'Часть 2', href: 'https://drive.google.com/file/d/13KJ0sWGiJtJ47hpMEZqedB-ZTIIHLP1V/preview', subject: 'mathematics' },
   { title: 'Литература', author: 'Коровина', subtitle: 'Часть 1', href: 'https://drive.google.com/file/d/1iPrNBCZORxzqf23UsgEpDQnZk97Ajfel/preview', subject: 'literature' },
