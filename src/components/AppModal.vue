@@ -2,12 +2,16 @@
     <div class="modal-mask" v-if="isVisible" @click="handleClickOutside">
         <div class="modal-wrapper">
             <div class="modal-container">
-                <button class="modal-default-button" @click="$emit('close')">
-                    ×
-                </button>
                 <div class="modal-header">
+                  <div class="title">
                     {{ subject?.title }} - {{ subject?.author }} <span v-if="subject?.subtitle">- {{ subject?.subtitle}}</span>
+                  </div>
+                  <button class="modal-close" @click="$emit('close')">
+                    ×
+                  </button>
+
                 </div>
+
 
                 <div class="modal-body">
                     <iframe :src="subject?.href" frameborder="0"></iframe>
@@ -85,11 +89,14 @@ const handleClickOutside = (event) => {
 }
 
 .modal-header {
-    display: inline-block;
-    margin-top: 0;
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
     font-size: 18px;
     font-weight: 500;
-    padding-right: 50px;
     word-wrap: break-word;
 }
 
@@ -122,18 +129,13 @@ const handleClickOutside = (event) => {
     }
 }
 
-.modal-default-button {
-    position: absolute;
-    right: 20px;
+.modal-close {
     font-size: 50px;
-    line-height: 0;
-    top: 20px;
     display: block;
     outline: 0;
     border: 0;
     background: none;
     cursor: pointer;
-    padding: 10px;
     transition: all 0.2s ease 0s;
     color: #000;
 
